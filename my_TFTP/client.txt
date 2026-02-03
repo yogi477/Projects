@@ -1,4 +1,0 @@
-This file contains the data
-related to the TCP and UDP
-you can see it from
-server side
