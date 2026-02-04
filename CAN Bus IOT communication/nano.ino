@@ -6,7 +6,7 @@ MCP_CAN CAN0(SPI_CS_PIN);
 
 void setup() {
   Serial.begin(115200);
-  if (CAN0.begin(MCP_ANY, CAN_500KBPS, MCP_16MHZ) == CAN_OK)
+  if (CAN0.begin(MCP_ANY, CAN_500KBPS, MCP_16MHZ) == CAN_OK) //MCP2515 works on 16MHZ
     Serial.println("CAN BUS NANO Initialized Successfully!");
   else
     Serial.println("CAN BUS Initialization Failed!");
